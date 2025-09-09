@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { Toaster } from 'react-hot-toast';
-import { store } from './store/store';
+import { store } from './store.js';
 import Header from './components/Header';
 import LandingPage from './components/LandingPage';
 import ProductListingPage from './components/ProductListingPage';
