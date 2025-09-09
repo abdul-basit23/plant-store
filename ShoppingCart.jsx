@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { increaseQuantity, decreaseQuantity, removeFromCart } from '../store/cartSlice';
+import { increaseQuantity, decreaseQuantity, removeFromCart } from '.cartSlice.js';
 import { Plus, Minus, Trash2, ShoppingBag, ArrowLeft } from 'lucide-react';
 import toast from 'react-hot-toast';
 
@@ -111,3 +111,4 @@ if(items.length===0){
 }
 
 export default ShoppingCart
+
