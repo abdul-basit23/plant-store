@@ -1,7 +1,7 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux';
-import { addToCart } from '../store/cartSlice';
-import { plantsByCatagory } from '../data/plant';
+import { addToCart } from '.cartSlice.js';
+import { plantsByCatagory } from './plant.js';
 import { Plus, Check, Key } from 'lucide-react';
 import toast from 'react-hot-toast';
 
@@ -75,3 +75,4 @@ function ProductListingPage() {
 }
 
 export default ProductListingPage
+
