@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { Toaster } from 'react-hot-toast';
 import { store } from './store.js';
-import Header from './components/Header';
-import LandingPage from './components/LandingPage';
-import ProductListingPage from './components/ProductListingPage';
-import ShoppingCart from './components/ShoppingCart';
+import Header from './Header';
+import LandingPage from './LandingPage';
+import ProductListingPage from './ProductListingPage';
+import ShoppingCart from './ShoppingCart';
 
 function App() {
   return (
